@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento'); */
+/* Styles for the outer card */
+body{
+    display: block;
+}
+.outer-card {
+    width: 400px;
+    height: 400px;
+    background-color: #f1b1b1;
+    border-radius: 10px;
+    padding: 20px;
+    /* margin: 20px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the inner card */
+#inner-card {
+    background-color: #fff;
+    height: 240px;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    font-family: 'Sacramento', cursive;
+    letter-spacing: -1px;
+    font-size: 37px;
+}
+
+/* Just some styling for text */
+h2 {
+    text-align: center;
+    vertical-align: middle;
+}
+#btn{
+    display: block;
+    margin: 0 auto;
+    border-style: hidden;
+    background-color: #f1b1b1;
+    font-family:fantasy;
+    font-size:1cm;
+    margin-top: 10px;
+    margin-block-end: 2px;
+}
+.btn:hover{
+    color:azure;
+}
