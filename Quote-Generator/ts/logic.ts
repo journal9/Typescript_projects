@@ -17,7 +17,7 @@ var store={
   }
 
 buttonElement.addEventListener('click',()=>{
-    var idx = Math.floor((Math.random() * 7));
+    var idx:number = Math.floor((Math.random() * 7));
     console.log(idx);
     quoteDiv.textContent = store.quote.lists[idx]
 })

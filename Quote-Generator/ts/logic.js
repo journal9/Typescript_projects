@@ -1,17 +1,5 @@
 var buttonElement = document.getElementById("btn");
 var quoteDiv = document.getElementById("inner-card");
-// type JSONValue =
-// | string
-// | JSONObject
-// | JSONArray;
-// interface JSONObject {
-//     [x: string]: JSONValue;
-// }
-// interface JSONArray extends Array<JSONValue>{}
-// type JSONValue = string | string[];
-// interface objectValue {
-//     [x: string]: JSONValue;
-// }
 var store = {
     "quote": {
         "lists": [
